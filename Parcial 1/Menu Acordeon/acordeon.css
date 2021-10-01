@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body 
+{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to bottom right, #114357 60%, #f29492);
+}
+
+.comnteiner
+{
+	width: 50vw;
+}
+
+.item
+{
+	background: #fff;
+}
+
+.item:hover .cont-datos
+{
+	max-height: 20em;
+}
+
+.cont-datos
+{
+	transition: .5s linear 0s;
+	max-height: 0em;
+	overflow: hidden;
+}
+
+.inner-datos
+{
+	padding: 1.8rem;
+}
+
+a
+{
+	display: block;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 1em;
+	text-decoration: none;
+	padding: 1rem 1.8rem;
+}
+
+.instagram
+{
+	background: #db2e7d;
+}
+
+.twitter
+{
+	background: #1dabdd;
+}
+
+.facebook
+{
+	background: rgb(34, 34, 235);
+}
+
+.youtube
+{
+	background: rgb(243, 15, 15);
+}
