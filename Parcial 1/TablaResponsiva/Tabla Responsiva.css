@@ -1,0 +1,41 @@
+body
+{
+	background-color: #0A8FC4;
+	font-family: Arial, Helvatica, sans-serif;
+}
+
+#main-container{
+	margin: 200px auto;
+	width: 1500px;
+}
+
+table
+{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td
+{
+	border : solid 1px black;
+	padding: 20px;
+}
+
+thead
+{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even)
+{
+	background-color: #ddd;
+}
+
+@media screen and (max-widht:1300px)
+{
+  .com{ display:none; }
+}
