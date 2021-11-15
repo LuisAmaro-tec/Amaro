@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #AA3CC1 35%, #14CBD1);
+}
+
+form{
+    text-align: center;
+}
+
+.resultado{
+    text-align: center;
+
+}
+
+.result{
+      text-align: center;
+}
+
+
